@@ -2,6 +2,22 @@ html {
   font-family: Merriweather, serif;
 }
 
+.nav:focus {
+  position: relative;
+  background-color: #113c00;
+  z-index: 2;
+}
+
+.nav a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover:focus {
+  background-color: #fff;
+  color: #113c00;
+}
+
 .color-brand {
   color: #568c36;
 }
@@ -82,6 +98,10 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+.embed-item {
+  background-color: #568c36;
 }
 
 @media only screen and (min-width: 35em) {
